@@ -68,3 +68,17 @@
 | episode_id | bigint(20) |  | PRIMARY |  |  |
 | broadcast_time | datetime |  | PRIMARY |  |  |
 | broadcast_viewers_number | bigint(20) |  |  |  |  |
+
+
+以下が要求されたER図です：
+
+![ER図](https://showme.redstarplugin.com/s/lC0XvLLX)
+
+- ユーザー(USERS)は複数のチャンネルエピソード(CHANNEL_EPISODES)を放送することができます。
+- チャンネル(CHANNELS)は複数のチャンネルエピソード(CHANNEL_EPISODES)を放送することができます。
+- エピソード(EPISODES)は複数のチャンネルエピソード(CHANNEL_EPISODES)を放送することができます。
+- プログラム(PROGRAMS)は複数のシーズン(SEASONS)を持つことができます。
+- シーズン(SEASONS)は複数のエピソード(EPISODES)を持つことができます。
+- プログラム(PROGRAMS)は複数のプログラムジャンル(PROGRAM_GENRES)を持つことができます。
+- ジャンル(GENRES)は複数のプログラムジャンル(PROGRAM_GENRES)を持つことができます。
+
