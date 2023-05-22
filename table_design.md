@@ -73,12 +73,3 @@
 ### ER図
 
 ![ER図](https://showme.redstarplugin.com/s/lC0XvLLX)
-
-- ユーザー(USERS)は複数のチャンネルエピソード(CHANNEL_EPISODES)を放送することができます。
-- チャンネル(CHANNELS)は複数のチャンネルエピソード(CHANNEL_EPISODES)を放送することができます。
-- エピソード(EPISODES)は複数のチャンネルエピソード(CHANNEL_EPISODES)を放送することができます。
-- プログラム(PROGRAMS)は複数のシーズン(SEASONS)を持つことができます。
-- シーズン(SEASONS)は複数のエピソード(EPISODES)を持つことができます。
-- プログラム(PROGRAMS)は複数のプログラムジャンル(PROGRAM_GENRES)を持つことができます。
-- ジャンル(GENRES)は複数のプログラムジャンル(PROGRAM_GENRES)を持つことができます。
-
