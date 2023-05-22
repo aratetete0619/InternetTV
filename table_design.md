@@ -70,7 +70,7 @@
 | broadcast_viewers_number | bigint(20) |  |  |  |  |
 
 
-以下が要求されたER図です：
+### ER図
 
 ![ER図](https://showme.redstarplugin.com/s/lC0XvLLX)
 
